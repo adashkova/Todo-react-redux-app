@@ -17,7 +17,7 @@ const TodoItems = ({ dispatch }) => {
   const handlerMarkTodo = id => {
     dispatch(markTodo(id));
   };
-  //const activeFilter = filters.find(filter => filter.isActiveClass).text;
+
 
   const filterVisibleTodos = todos => {
     let currentFilter = filters.find(filter => filter.isActiveClass);
